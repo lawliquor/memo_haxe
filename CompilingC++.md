@@ -39,5 +39,5 @@ haxe compile.hxml
 
 以上でいけるはず
 
-[^1]: haxeとmingwはインストール済みの前提
-[^2]: tarminalでも、どっちでも
+[^1]:haxeとmingwはインストール済みの前提
+[^2]:tarminalでも、どっちでも
