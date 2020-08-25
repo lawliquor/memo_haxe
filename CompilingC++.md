@@ -2,14 +2,14 @@
 haxeのcookbookはここ↓  
 "https://code.haxe.org/category/other/compiling-cpp-code-windows-mingw.html" 
 
-cookbookの通りだと、haxelibのminimingwが古すぎて環境を合わせるのが面倒。
+cookbookの通りだと、haxelibのminimingwが古すぎて、環境を合わせるのが面倒。
 
 ## 手順
 ・haxeとmingwはインストール済みの前提  
 ・対象はwindowsでmingwを使う場合←公式でもVS使ったほうがって書いてある
 
 ### minimingwをbuild
-成功すればMinGWフォルダができているはず
+成功すればMinGWフォルダが、できているはず
 1. giit clone https://github.com/nmehost/minimingw.git
 2. BuildDistro.hx の中の2か所を編集
 ```haxe:BuildDistro.hx
