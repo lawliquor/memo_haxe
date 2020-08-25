@@ -1,7 +1,3 @@
----
-permalink: /CompilingC++.html
----
-
 # haxe c++ 向けコンパイルライブラリの使い方
 haxeのcookbookはここ↓  
 "https://code.haxe.org/category/other/compiling-cpp-code-windows-mingw.html" 
