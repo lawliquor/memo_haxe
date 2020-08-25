@@ -4,7 +4,7 @@ haxeのcookbookはここ↓
 
 cookbookの通りだと、haxelibのminimingwが古すぎて環境を合わせるのが面倒。
 
-## 手順[^1]
+## 手順 [^1] 
 ### minimingwをbuild
 成功すればMinGWフォルダができているはず
 1. giit clone https://github.com/nmehost/minimingw.git
@@ -29,7 +29,7 @@ haxe compile.hxml
 6. haxelibに登録
 ```haxelib dev ~/minimingw-master/MinGW```
 
-### haxeのプロジェクト側で、build.hxmlを編集[^2]
+### haxeのプロジェクト側で、build.hxmlを編集 [^2] 
 ```hxml:build.hxml
 -m Main
 -cpp bin/
@@ -39,5 +39,5 @@ haxe compile.hxml
 
 以上でいけるはず
 
-[^1]:haxeとmingwはインストール済みの前提
-[^2]:tarminalでも、どっちでも
+[^1]: haxeとmingwはインストール済みの前提
+[^2]: tarminalでも、どっちでも
