@@ -5,8 +5,8 @@ haxeのcookbookはここ↓
 cookbookの通りだと、haxelibのminimingwが古すぎて環境を合わせるのが面倒。
 
 ## 手順
-haxeとmingwはインストール済みの前提  
-対象はwindowsでmingwを使う場合←公式でもVS使ったほうがって書いてある
+・haxeとmingwはインストール済みの前提  
+・対象はwindowsでmingwを使う場合←公式でもVS使ったほうがって書いてある
 
 ### minimingwをbuild
 成功すればMinGWフォルダができているはず
