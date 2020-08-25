@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # memo_haxe
 
 ## Haxe
