@@ -36,7 +36,6 @@ haxe compile.hxml
 ```hxml:build.hxml
 -m Main
 -cpp bin/
-~~-D toolchain=mingw~~
 -D HXCPP_MINGW
 -D HXCPP_M64
 ```
