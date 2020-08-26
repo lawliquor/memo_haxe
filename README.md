@@ -7,4 +7,4 @@ layout: default
 https://haxe.org/
 
 ## meno
-### [CompilingC++](CompilingC%2B%2B.md)
+### [CompilingC++](CompilingC++.md)
