@@ -5,6 +5,6 @@ relative_links:
   collections: true
 include:
   - README.md
-  - CompilingC++.md
+  - CompilingCpp.md
 markdown: kramdown
 theme: jekyll-theme-minimal
