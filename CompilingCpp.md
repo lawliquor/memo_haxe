@@ -44,6 +44,6 @@ haxe compile.hxml
 
 ### 補足
 依存関係のhxcppの中身も参考になる
-~/haxlib/hxcpp/{version}/toolchain/mingw-toolchain.xml
+https://github.com/HaxeFoundation/hxcpp
 
 
