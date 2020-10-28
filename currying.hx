@@ -2,6 +2,7 @@ class Main {
 	// 部分適応とカリー化
 	// カリー化を用いた部分適応は、1関数1引数でタイプ量を減らすことでバグを減らすテクニック
 	// 記述量は、標準の部分適応より少なくなる
+	// 参考:https://qiita.com/KtheS/items/1a93ba0a6d722a534439
 	static function main() {
 		// currying
 		final add = (x) -> (y) -> x + y;
@@ -41,7 +42,7 @@ class Main {
 		func5(10);
 
 		// カリー化のメリットがありそうなパターン
-		// 参照:http://www.nct9.ne.jp/m_hiroi/func/ocaml03.html
+		// 参考:http://www.nct9.ne.jp/m_hiroi/func/ocaml03.html
 		final distance = (x1, y1) -> (x2, y2) -> Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
 		final distance3d = (x1, y1, z1) -> (x2, y2, z2) -> Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
 		trace(distance(0, 0)(10, 10));
