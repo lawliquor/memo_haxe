@@ -1,8 +1,11 @@
 class Main {
-	// 部分適応とカリー化
-	// カリー化を用いた部分適応は、1関数1引数でタイプ量を減らすことでバグを減らすテクニック
-	// 記述量は、標準の部分適応より少なくなる
-	// 参考:https://qiita.com/KtheS/items/1a93ba0a6d722a534439
+	/* 部分適応とカリー化
+	   カリー化を用いた部分適応は、1関数1引数でタイプ量を減らすことでバグを減らすテクニック
+	   記述量は、標準の部分適応より少なくなる
+           参考
+	    https://qiita.com/KtheS/items/1a93ba0a6d722a534439
+	    https://qiita.com/norkron/items/6b28962ac86e17750041
+        */
 	static function main() {
 		// currying
 		final add = (x) -> (y) -> x + y;
